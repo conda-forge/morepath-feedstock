@@ -1,6 +1,6 @@
 {% set name = "morepath" %}
-{% set version = "0.17" %}
-{% set sha256 = "e2c3c6f545ce50f649f5a978a462d7f14a4fbab03fc8d79ffcb8e557057f6bdc" %}
+{% set version = "0.18" %}
+{% set sha256 = "41a779093fb48583ef071be72a6895ea092fb53513d439e86c826455d93f65a2" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,8 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script:
+    - python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
