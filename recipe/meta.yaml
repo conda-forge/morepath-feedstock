@@ -1,6 +1,6 @@
 {% set name = "morepath" %}
-{% set version = "0.18" %}
-{% set sha256 = "41a779093fb48583ef071be72a6895ea092fb53513d439e86c826455d93f65a2" %}
+{% set version = "0.18.1" %}
+{% set sha256 = "4b634b52ad79e30cc31d10a5433dffd6105b4f37b45ee25c222b3a4ee67b21d7" %}
 
 package:
   name: {{ name|lower }}
