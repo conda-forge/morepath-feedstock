@@ -17,14 +17,15 @@ using views.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/morepath-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/morepath-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/morepath-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/morepath-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/morepath-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/morepath-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/morepath-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/morepath-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/morepath/badges/version.svg)](https://anaconda.org/conda-forge/morepath)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/morepath/badges/downloads.svg)](https://anaconda.org/conda-forge/morepath)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-morepath-green.svg)](https://anaconda.org/conda-forge/morepath) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/morepath.svg)](https://anaconda.org/conda-forge/morepath) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/morepath.svg)](https://anaconda.org/conda-forge/morepath) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/morepath.svg)](https://anaconda.org/conda-forge/morepath) |
 
 Installing morepath
 ===================
