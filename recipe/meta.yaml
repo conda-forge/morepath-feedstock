@@ -1,6 +1,6 @@
 {% set name = "morepath" %}
-{% set version = "0.18.1" %}
-{% set sha256 = "4b634b52ad79e30cc31d10a5433dffd6105b4f37b45ee25c222b3a4ee67b21d7" %}
+{% set version = "0.18.2" %}
+{% set sha256 = "7bc289b0fe15aa74ad2faa33a6c8f3d4340395a2b8f09db1da9703d4a17bf346" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1001
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
