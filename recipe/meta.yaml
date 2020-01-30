@@ -1,6 +1,6 @@
 {% set name = "morepath" %}
-{% set version = "0.18.2" %}
-{% set sha256 = "7bc289b0fe15aa74ad2faa33a6c8f3d4340395a2b8f09db1da9703d4a17bf346" %}
+{% set version = "0.19" %}
+{% set sha256 = "3d3f075083766e7d9c1bd184bf927590e862caa8a385f9a8a572422c0d69606a" %}
 
 package:
   name: {{ name|lower }}
@@ -18,15 +18,15 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.4
     - pip
 
   run:
-    - python
+    - python >=3.4
     - webob >=1.7.0
-    - reg >=0.11
-    - dectate >=0.13
-    - importscan
+    - reg >=0.12
+    - dectate >=0.14
+    - importscan >=0.2
 
 test:
   imports:
