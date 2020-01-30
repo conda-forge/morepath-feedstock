@@ -18,15 +18,15 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.4
     - pip
 
   run:
-    - python
+    - python >=3.4
     - webob >=1.7.0
-    - reg >=0.11
-    - dectate >=0.13
-    - importscan
+    - reg >=0.12
+    - dectate >=0.14
+    - importscan >= 0.2
 
 test:
   imports:
