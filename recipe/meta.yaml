@@ -28,6 +28,7 @@ requirements:
     - reg >=0.12
     - dectate >=0.14
     - importscan >=0.2
+    - setuptools
 
 test:
   requires:
