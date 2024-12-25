@@ -8,27 +8,31 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
-    - python >=3.4
+  host:
+    - python {{ python_min }}
     - pip
+    - setuptools
 
   run:
-    - python >=3.4
+    - python >={{ python_min }}
     - webob >=1.7.0
     - reg >=0.12
     - dectate >=0.14
     - importscan >=0.2
+    - setuptools
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - morepath
 
